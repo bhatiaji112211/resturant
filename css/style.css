@@ -652,9 +652,52 @@ body{
     color: #fff;
 }
 
+.reservation-form{
+    margin-top: 150px;
+}
+.reservation-form .form{
+    margin-right:50px;
+}
+
+.reservation-form input{
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+.reservation-form button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    border: 0;
+    background-color: #50a06c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reservation-form .timing h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    border-bottom: 0.5px solid #dfdfdf;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.reservation-form .timing p{
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 0.5px solid #000;
+    padding-bottom: 10px;
+}
 @media (max-width:992px){
     .reservation h1{
         font-size: 80px;
+    }
+
+    .reservation-form .form{
+        margin-right:0px;
     }
 }
 
