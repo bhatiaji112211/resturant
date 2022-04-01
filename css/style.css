@@ -712,3 +712,125 @@ body{
         font-size: 50px;
     }
 }
+
+/* contact */
+#contact{
+    margin: 100px 0;
+}
+
+#contact h1 button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+    margin-bottom: 50px;
+}
+
+#contact .contact-text{
+    margin-bottom: 50px;
+}
+
+#contact .contact-text h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#contact .contact-text .fa{
+    font-size: 30px;
+    color: gray;
+    margin: 0 30px;
+    margin-top: 20px;
+}
+
+#contact .contact-text .fa:hover{
+    color: #1e1e1e;
+}
+
+#contact .contact-text h4{
+    margin-top: 20px;
+}
+
+#contact .contact-text h4 a{
+    text-decoration: none;
+    color:gray;
+    font-size: 25px;
+}
+
+#contact .contact-text h4 a:hover{
+    color: #1e1e1e;
+    border-bottom:1px solid #1e1e1e;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+@media (max-width:992px){
+    #contact h1 button{
+        width: 200px;
+        height: 55px;
+        font-size: 30px;
+    }
+    
+    #contact .contact-text h3{
+        font-size: 23px;
+    }
+
+    #contact .contact-text .fa{
+        font-size: 25px;
+    }
+    #contact .contact-text h4 a{
+        font-size: 21px;
+    }
+}
+
+@media (max-width:767px){
+    #contact h1 button{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+    #contact .contact-text h3{
+        font-size: 20px;
+    }
+
+    #contact .contact-text .fa{
+        font-size: 20px;
+        margin: 0 20px;
+    }
+
+    #contact .contact-text h4 a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:551px){
+    #contact h1 button{
+        width:150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    #contact .contact-text h3{
+        font-size: 18px;
+    }
+
+    #contact .contact-text .fa{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    #contact .contact-text h4 a{
+        font-size: 15px;
+    }
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #fff;
+}
