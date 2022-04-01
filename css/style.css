@@ -1,0 +1,671 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* navigation */
+#my-navigation{
+    background-color: #1e1e1e;
+    border: 0;
+}
+
+#my-navigation .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #fff;
+}
+
+#my-navigation #mynavbar li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* .navbar-toggle:focus{
+    outline: 0;
+}
+
+.navbar-nav > .active{
+    color: aqua!important;
+    background-color: chartreuse;
+}
+
+.nav-item > a:hover{
+    color: aqua;
+} */
+
+#my-navigation #mynavbar li a:hover{
+    color: #5cd65a;
+    border-bottom: 1px solid #5cd65a;
+}
+
+/* .navbar-fixed-top{
+    display: block;
+    width: auto; 
+} */
+
+@media (max-width: 992px){
+    #my-navigation #mynavbar li a{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:737px){
+    .navbar-fixed-top{
+        width: auto;
+    } 
+}
+
+/* banner */
+#top{
+    background-image: url(../img/steak.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#top .top-tittle{
+    margin-top: 150px;
+    font-size: 150px;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+#top .second-tittle{
+    color: #fff;
+    word-spacing: 10px;
+    font-size: 50px;
+}
+
+
+@media (max-width: 992px){
+    #top .top-tittle{
+        font-size: 100px;
+    }
+
+    #top .second-tittle{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px){
+    #top .top-tittle{
+        font-size: 80px;
+    }
+
+    #top .second-tittle{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px){
+    #top .top-tittle{
+        font-size: 60px;
+    }
+
+    #top .second-tittle{
+        font-size: 20px;
+    }
+}
+/* about */
+.about{
+    margin: 100px 0;
+}
+
+.about h1 button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+}
+
+.about .center{
+    text-align: center;
+}
+
+.about .center .fa{
+    margin: 30px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+.about p{
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+
+.about .img-section-space{
+    margin-top: 3px;
+}
+
+@media (max-width:992px){
+    .about h1 button{
+        width: 200px;
+        height: 55px;
+    }
+
+    .about .center .fa{
+        font-size: 35px;
+    }
+
+    .about p{
+        text-align: center;
+    }
+
+    .about .img-section{
+        text-align: center;
+    }
+}
+
+@media (max-width:767px){
+    .about h1 button{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .about .center .fa{
+        font-size: 30px;
+    }
+
+    .about p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:535px){
+    .about h1 button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .about .fa{
+        font-size: 20px;
+    }
+
+    .about p{
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+
+    .about .img-section img{
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .about .img-section-space{
+        margin-top: 0;
+    }
+}
+
+/* pricing */
+.pricing{
+    width: 100%;
+    height: 500px;
+}
+
+.background_content{
+    background-image: url(../img/pricing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.pricing h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 90px;
+    color: #fff;
+}
+
+.pricing h1 span{
+    border-bottom: 10px solid #fff;
+}
+
+@media (max-width:992px){
+    .pricing h1{
+        font-size: 80px;
+    }
+    .pricing h1 span{
+        border-bottom: 8px solid #fff;
+    }
+}
+
+@media (max-width:767px){
+    .pricing h1{
+        font-size: 70px;
+    }
+
+    .pricing h1 span{
+        border-bottom: 7px solid #fff;
+    }
+}
+
+@media (max-width:535px){
+    .pricing h1{
+        font-size: 50px;
+    }
+
+    .pricing h1 span{
+        border-bottom: 5px solid #fff;
+    }
+}
+
+/* our beer */
+
+.beer{
+    height: 80vh;
+    background-image: url(../img/beer.jpg);
+    background-color: center;
+    background-size: cover;
+}
+
+.beer h1{
+    padding-top: 35vh;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.beer h1 span{
+    border-bottom: 10px solid #fff;
+}
+
+.text-content{
+    margin: 100px 0;
+}
+
+.text-content h1{
+    text-align: center;
+}
+
+.text-content h1 button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+}
+
+.text-content .icon{
+    text-align: center;
+}
+
+.text-content .icon .fa{
+    margin: 15px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+.text-content p{
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+
+@media (max-width:992px){
+    .beer h1{
+        font-size: 80px;
+    }
+
+    .beer h1 span{
+        border-bottom: 8px solid #fff;
+    }
+    
+    .text-content h1 button{
+        width: 200px;
+        height: 55px;
+    }
+
+    .text-content .icon .fa{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:767px){
+    .beer h1{
+        font-size: 70px;
+    }
+
+    .beer h1 span{
+        border-bottom: 7px solid #fff;
+    }
+    
+    .beer h1 button{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+    
+    .text-content .icon .fa{
+        font-size: 30px;
+    }
+    
+    .text-content p{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:535px){
+    .beer h1{
+        font-size: 50px;
+    }
+    
+    .beer h1 span{
+        border-bottom: 5px solid #fff;
+    }
+
+    .beer h1 button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .beer .icon .fa{
+        font-size: 20px;
+    }
+
+    .text-content p{
+        font-size: 15px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+}
+/* bread */
+.bread{
+    width: 100%;
+    height: 500px;
+}
+
+.bread_bacground_content{
+    background-image: url(../img/bread.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bread h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 90px;
+    color: #fff;
+}
+
+.bread h1 span{
+    border-bottom: 10px solid #fff;
+}
+
+.text-container{
+    margin: 100px 0;
+}
+
+.text-container h1{
+    text-align: center;
+}
+
+.text-container h1 button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+}
+
+.text-container .icon{
+    text-align: center;
+}
+
+.text-container .icon .fa{
+    margin: 15px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+.text-container p{
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+@media (max-width:992px){
+    .bread h1{
+        font-size: 80px;
+    }
+
+    .bread h1 span{
+        border-bottom: 8px solid #fff;
+    }
+
+    .text-container h1 button{
+        width: 200px;
+        height: 55px;
+        font-size: 30px;
+    }
+
+    .text-container img{
+        margin-right: 150px;
+    }
+
+    .text-container img:nth-child(2){
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width:767px){
+    .bread h1{
+        font-size: 70px;
+    }
+
+    .bread h1 span{
+        border-bottom: 7px solid #fff;
+    }
+
+    .text-container h1 button{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .text-container p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:535px){
+    .bread h1{
+        font-size: 50px;
+    }
+
+    .bread h1 span{
+        border-bottom: 5px solid #fff;
+    }
+
+    .text-container h1 button{
+        font-size: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .text-container p{
+        font-size: 15px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+    .text-container img{
+        width: 30%;
+        margin-right: 100px;
+        
+    }
+
+    .text-container img:nth-child(2){
+        margin-right: 0px;
+    }
+}
+
+
+/* featured */
+.featured{
+    width: 100%;
+    height: 500px;
+}
+
+.featured-background-content{
+    background-image: url(../img/featured.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.featured h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 90px;
+    color: #fff;
+}
+
+.featured h1 span{
+    border-bottom: 10px solid #fff;
+}
+
+.featured-text-content h1{
+    text-align: center;
+}
+
+.featured-text-content{
+    margin: 100px 0;
+}
+.featured-text-content h1 button{
+    width: 260px;
+    height: 150px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+    text-transform: uppercase;
+}
+
+.featured-text-content p{
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+@media (max-width:992px){
+    .featured h1{
+        font-size: 80px;
+    }
+
+    .featured h1 span{
+        border-bottom: 8px solid #fff;
+    } 
+
+    .featured-text-content h1 button{
+        width: 240px;
+        height: 145px;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .featured h1{
+        font-size: 70px;
+    }
+
+    .featured h1 span{
+        border-bottom: 7px solid #fff;
+    }
+
+    .featured-text-content h1 button{
+        width: 220px;
+        height: 130px;
+        font-size: 28px;
+    }
+
+    .featured-text-content p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:535px){
+    .featured h1{
+        font-size: 50px;
+    }
+
+    .featured h1 span{
+        border-bottom: 5px solid #fff;
+    }
+
+    .featured-text-content h1 button{
+        width: 200px;
+        height: 110px;
+        font-size: 25px;
+    }
+
+    .featured-text-content p{
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+}
+
+
+
+/* reservation */
+.reservation{
+    width: 100%;
+    height: 500px;
+}
+
+.reservation-background-content{
+    background-image: url(../img/featured.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.reservation h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 90px;
+    color: #fff;
+}
+
+@media (max-width:992px){
+    .reservation h1{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:767px){
+    .reservation h1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width:535px){
+    .reservation h1{
+        font-size: 50px;
+    }
+}
